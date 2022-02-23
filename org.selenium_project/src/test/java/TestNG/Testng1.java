@@ -11,7 +11,6 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
 public class Testng1 {
-	
   @Test
   public void f() {
 	  System.out.println("Test");
