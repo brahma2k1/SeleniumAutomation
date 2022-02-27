@@ -1,4 +1,4 @@
-package TestNGpack1;
+package TestNGpack2;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
@@ -10,17 +10,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
-public class Testng1 {
-
+public class Testng2 {
   @Test
   public void f() {
 	  System.out.println("Test");
-	  System.out.println("Test1");
   }
   @BeforeMethod
   public void beforeMethod() {
 	  System.out.println("Before Method");
-	  System.out.println("Before Method1");
   }
 
   @AfterMethod
