@@ -36,7 +36,6 @@ public class Testng2 {
   public void afterClass() {
 	  System.out.println("After Class");
   }
-
   @BeforeTest
   public void beforeTest() {
 	  System.out.println("Before Test");
